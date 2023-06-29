@@ -12,6 +12,13 @@ return [
         '\TypeRocket\Extensions\TypeRocketUI',
         '\TypeRocket\Extensions\PostMessages',
         '\TypeRocket\Extensions\PageBuilder',
+        '\TypeRocket\Pro\Extensions\ThemeOptions',
+        '\TypeRocket\Pro\Extensions\DevTools',
+        // '\TypeRocket\Pro\Extensions\Seo',
+        // '\TypeRocket\Pro\Extensions\RapidPages',
+        // '\TypeRocket\Pro\Extensions\HidePostMenu',
+        // '\TypeRocket\Pro\Extensions\DisableComments',
+        // '\TypeRocket\Pro\Extensions\GutenbergRemover',
     ],
 
     /*
@@ -29,7 +36,7 @@ return [
         /*
          * TypeRocket Service Providers...
          */
-        '\TypeRocket\Services\ErrorService',
+        // '\TypeRocket\Services\ErrorService',
         '\TypeRocket\Services\MailerService',
         '\TypeRocket\Services\JobQueueRunner',
 
@@ -67,7 +74,7 @@ return [
     | A 'random' string of text to help with security from time to time.
     |
     */
-    'seed' => 'PUT_TYPEROCKET_SEED_HERE',
+    'seed' => 'seed_649d6b3b7d4c5',
 
     /*
     |--------------------------------------------------------------------------
